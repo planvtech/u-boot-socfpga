@@ -291,6 +291,7 @@
 			reg = <0xff808000 0x1000>;
 			interrupts = <0 96 4>;
 			fifo-depth = <0x400>;
+			fifo-mode = <1>;
 			resets = <&rst SDMMC_RESET>;
 			reset-names = "reset";
 			clocks = <&clkmgr AGILEX_L4_MP_CLK>,
